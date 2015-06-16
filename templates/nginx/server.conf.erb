@@ -1,0 +1,9 @@
+# Redirect everything to the main site.
+server {
+  listen 80;
+  server_name <%= @server_name %>;
+	root /var/www/<%= @server_name %>;
+
+	include /etc/nginx/sites-available/global/restrictions.conf;
+	include /etc/nginx/sites-available/global/wordpress.conf;
+}

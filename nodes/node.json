@@ -1,0 +1,11 @@
+{
+  "server_name": "example.com",
+  "mysql": {
+    "root": "JEsr549X6SMiU8TUJPJun7qxnjkFQMMw"
+  },
+  "wordpress": {
+    "db_name": "wordpress_db",
+    "db_user": "wordpress_user",
+    "db_password": "XNtY2SDbfgivAwhK7WPAAfMK56LXSmPy"
+  }
+}
